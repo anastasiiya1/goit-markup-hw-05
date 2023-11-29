@@ -403,16 +403,49 @@
                     <label class="subscribe-label">
                         <input type="email" name="user-email" placeholder="E-mail">
                     </label>
-                    <button class="subscribe-btn" type="submit">Subscribe<svg class="social-link-icon" width="24" height="24">
-                                <use href="./images/icons.svg#icon-linkedin-1">
-                                </use>
-                            </svg>
+                    <button class="subscribe-btn" type="submit">Subscribe<svg class="social-link-icon" width="24"
+                            height="24">
+                            <use href="./images/icons.svg#icon-frame-3">
+                            </use>
+                        </svg>
                     </button>
                 </form>
             </div>
-
         </div>
     </footer>
+    <!-- Modal -->
+    <div class="backdrop">
+        <div class="modal">
+            <button type="button" class="modal-btn">
+                <svg class="modal-btn-icon" width="8" height="8">
+                    <use href="./images/icons.svg#icon-close-black"></use>
+                </svg>
+            </button>
+            <p class="modal-title">Leave your contacts and we will call you back</p>
+            <form class="modal-form">
+                <label>Name
+                    <input type="text" name="user-name" class="modal-input first-input">
+                </label>
+                <label for="">Phone
+                    <input type="tel" name="user-phone" class="modal-input">
+                </label>
+                <label for="">Email
+                    <input type="email" name="user-email" class="modal-input">
+                </label>
+                <label for="">Comment
+                    <input type="text" name="user-feedback" placeholder="Text input" class="modal-input last-input">
+                </label>
+                <label for="">
+                    <input type="checkbox" name="user-check" value="agree" class="modal-checkbox">I accept the terms and
+                    conditions of
+                    the
+                    <span><a href="">Privacy Policy</a></span>
+                </label>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+
 
 </body>
 
