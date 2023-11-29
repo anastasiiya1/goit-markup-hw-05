@@ -441,6 +441,10 @@ address {
   margin-bottom: 16px;
 }
 
+.social-link-container {
+  margin-right: 80px;
+}
+
 .social-media-text {
   color: #ffffff;
   font-weight: 500;
@@ -468,4 +472,58 @@ address {
 .social-media-link:hover,
 .social-media-link:focus {
   background-color: #31d0aa;
+}
+
+.subcribe-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.subscribe-form {
+  display: flex;
+  gap: 24px;
+}
+
+input {
+  background-color: #2e2f42;
+  width: 264px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #f3efef;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  padding-right: 16px;
+}
+
+input::placeholder {
+  box-sizing: border-box;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0.04em;
+}
+
+input[type="email"]::placeholder {
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #ffffff;
+}
+
+.subscribe-btn {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 16px;
+  padding: 8px 24px;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
