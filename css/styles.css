@@ -3,7 +3,6 @@ body {
   color: #434455;
   background-color: #ffffff;
   line-height: 1.5;
-  letter-spacing: 2%;
 }
 
 h1,
@@ -250,6 +249,7 @@ address {
 .description-text {
   font-size: 16px;
   letter-spacing: 0.02em;
+  line-height: 1.5;
 }
 
 .icon-container {
@@ -299,13 +299,16 @@ address {
 }
 
 .team-member-subtitle {
+  font-weight: 500;
   text-align: center;
   margin-bottom: 8px;
+  line-height: 1.2;
 }
 
 .team-member-text {
   text-align: center;
   margin-bottom: 8px;
+  line-height: 1.5;
 }
 
 .social-link-list {
@@ -438,11 +441,11 @@ address {
   color: #f4f4fd;
   letter-spacing: 0.02em;
   max-width: 264px;
-  margin-bottom: 16px;
+
 }
 
 .social-link-container {
-  margin-right: 80px;
+  margin-right: auto;
 }
 
 .social-media-text {
@@ -509,7 +512,6 @@ address {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 16px;
   padding: 8px 24px;
   background-color: #4d5ae5;
   color: #ffffff;
@@ -597,7 +599,6 @@ address {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-top: 48px;
   margin-bottom: 16px;
 }
 
